@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Día mundial de la bicleta</title>
+
+<!--gripo CSS-->
+<link rel="stylesheet" href="css/tema2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--   <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/bici2.png','imagenes/trans2.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Día mundial de la bicicleta</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Banner Conmemorativo</h1>
+<div>
+<br>
+</div>
+<div data-role="content" align="center">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/bici2.png',1)"><img src="imagenes/bici.png" width="70%" height="40%" id="Image20"></a>
+</div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Historia de la Bicicleta</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Utilización como medio de transporte</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Tipos de bicicleta</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>5 marcas importantes de bicicletas</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Por que se celebra el dia mundial de la bicicleta? </h2>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<div>
+<h4>Aplicacion TRES,CCD</h4>
+<h4> Cuautle Coyotl David </h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Historia de la Bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+Parece que hay un boom del uso de las bicicletas como medio de transporte en las grandes ciudades. Incluso en algunas poco preparadas para este medio de transporte ecológico, como Madrid. Los ciudadanos reivindican una forma de movilidad más sostenible y que no contamine. Pero la bicicleta tiene una larga historia, que ha pasado por diferentes etapas, en algunas de las cuales era un objeto imprescindible para el desarrollo de las comunidades.La bici es un aparato sencillo: básicamente, se compone de dos ruedas dispuestas en línea y un sistema de pedales para que la personas pueda transmitir la fuerza de propulsión. Además, un manillar para dirigir la bicicleta y un sillín para sentarse. El primer modelo de transmisión a través de una cadena (la bicicleta moderna) fue inventado en 1885 pero, ¿cuándo se inventó la bicicleta?, ¿cuándo nacieron los primeros intentos? a continuación te lo explicamos.
+<h2>La primera bicicleta</h2>
+Pero hasta llegar a ese primer modelo moderno, el diseño pasó por varias fases. La primera bicicleta, fabricada con madera, se llamaba draisina porque la inventó Karl Drais en 1817. No tenía pedales: había que empujarla con los pies en el suelo. Un herrero escocés llamado Kirkpatrick Macmillan creó la primera máquina con pedales y dos ruedas en 1839. Sin embargo, esta rudimentaria bicicleta aún no tenía correa de transmisión.
+<h2>La perfección de la bicicleta</h2>
+En 1861, al francés Ernest Michaux se le ocurrió una original mejora: ubicar los pedales en la rueda delantera. No triunfó porque se necesitaba mucho equilibrio para manejarla, pero la idea de los pedales conectados a la rueda abrió el camino para llegar a la bicicleta tal y como la usamos actualmente. Para resolver el problema de la falta de equilibrio, en 1873, un inventor inglés llamado James Starley propuso una máquina con la rueda delantera mucho más grande que la trasera. En enero de 1887, el norteamericano Thomas Stevens comenzó el primer viaje en bicicleta alrededor del mundo. Partió de San Francisco y no llegaría hasta tres años después. Toda una aventura.
+<h2>El nacimiento de la bicicleta moderna</h2>
+Por fin, en 1885, aparece la Safety Bicycle (bicicleta de seguridad), inventada por John Kemp Starley. Tenía frenos, permitía una postura más natural y el ciclista estaba más cerca del suelo, por lo que las caídas no eran tan peligrosas. Después, se añadieron las ruedas con cámara de aire y la cadena de transmisión conectada a la rueda de atrás. Es la bicicleta moderna.
+La bicicleta servía tanto para el campo como para la ciudad. Era un medio de transporte barato y accesible a cualquier persona. Además se puede arreglar con unos pocos conocimientos de mecánica. En Europa del norte, nunca ha dejado de utilizarse: países como Suiza, Alemania, los Países Bajos, algunas zonas de Polonia y los países escandinavos, y a pesar del frío y las malas condiciones meteorológicas, han sido siempre países defensores de este medio de transporte. También en China y la India ha sido durante años el principal medio de transporte.
+<p>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/linea9.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/linea2.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><img src="data1/images/linea2_0.jpg" alt="" title="" id="wows1_2"/></li>
+		<li><img src="data1/images/linea3.jpg" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/linea4.jpg" alt="" title="" id="wows1_4"/></li>
+		<li><img src="data1/images/linea5.jpg" alt="" title="" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/linea6.jpg" alt="cssslider" title="" id="wows1_6"/></a></li>
+		<li><img src="data1/images/linea7.jpg" alt="" title="" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data1/tooltips/linea9.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/linea2.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/linea2_0.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/linea3.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/linea4.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/linea5.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/linea6.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/linea7.jpg" alt=""/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</p>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicación TRES,CCD</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Utilizacion como medio de transporte</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+La bicicleta sí es efectiva como medio de transporte para distancias no tan extensas, para usarla dentro de una ciudad o pueblo es de mucha utilidad.
+<br>
+El uso de la bicicleta está extendido en casi todo el continente europeo. En países como Holanda, Suiza, Alemania, unas zonas de Polonia y en los países nórdicos; se ha convertido en uno de los primordiales medios de transporte. Pasando a Asia, fundamentalmente en China y La India, es la primera forma de transporte.
+<br>
+Actualmente, en el mundo, existen cerca de 800 millones de bicicletas, siendo China el país poseedor de la mayor cantidad de estos vehículos.
+<p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('transporte','','imagenes/trans2.jpg',1)"><img src="imagenes/trans.jpg" width="90%" height="50%" id="transporte"></a> </p></div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicación TRES,CCD</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Tipos de Bicicletas</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Bicicletas de Montaña (MTB)</h2>
+<img src="imagenes/bicitipo1.jpg" width="60%" height="36%">
+<br>Las bicicletas de montaña (también conocidas como MTB) están diseñadas para “fuera de ruta” por lo que son bastante resistentes. Están equipadas con llantas anchas con dibujos marcados para mejorar el agarre en terrenos sueltos. Regularmente usan manubrios rectos o de doble altura.
+Las MTB se pueden encontrar sin suspensión (rígidas), con suspensión delantera (hardtail) o con doble suspensión (full-suspension) dependiendo de su especialidad:
+<br>Cross country
+<br>Enduro
+<br>Downhill
+<br>Freeride
+<p><h2>Bicicletas de Ruta</h2></p>
+<img src="imagenes/bicitipo2.jpg" width="60%" height="36%">
+<br>Son bicicletas orientadas a obtener velocidad en pavimento, de construcción más ligera que otras bicicleta, están dotadas con ruedas más grandes, delgadas y provistas de llantas angostas y con dibujo liso. Las bicis de ruta utilizan manubrios drop-bar para lograr una postura más aerodinámica.
+<p><h2>Bicicletas Híbridas</h2></p>
+<img src="imagenes/bicitipo3.jpg" width="60%" height="36%">
+<br>Las bicicletas híbridas son bastante versátiles ya que combinan características de las bicis de montaña y de las de ruta.Estas bicicletas nacieron como una solución para quienes necesitan una bicicleta para la ciudad, pero que tenga la flexibilidad de ser usada en diferentes terrenos. Los cuadros son resistentes y con una geometría que permite adoptar una posición cómoda que permite relajar los brazos y el cuello.
+<p><h2>Bicicletas Urbanas</h2></p>
+<img src="imagenes/bicitipo4.jpg" width="60%" height="36%">
+<br>En este caso nos referimos como bicicleta urbana a las bicis estilo holandés (Dutch).
+Estas bicicletas fueron concebidas para la ciudad, por lo que son de construcción bastante solida tanto en su cuadro como en sus ruedas. Están perfectamente adecuadas para soportar lascondiciones de una ciudad (baches, banquetas, topes, etc.)
+<br>Por lo general cuenta con guardabarros para días de lluvia, portaequipaje y/o canasta para transportar todo lo que necesitas para ir al trabajo, al supermercado, etc. Una característica común en este tipo de bicicletas es la presencia de luces para mantenernos siempre visibles a los conductores.
+Normalmente tienen una sola velocidad, o sistema de cambios internos de ser necesario.
+Estas bicicletas permiten una posición relajada de torso y brazos.
+<p><h2>Fixies y single speed</h2></p>
+<img src="imagenes/bicitipo5.jpg" width="60%" height="36%">
+<br>Si bien su conceptp es el de ser una bicicleta sencilla, se han convertido en algo así como las bicicletas de culto para el ciclismo urbano. Su principal característica es su diseño simple y en muchos casos minimalista, sumamente eficientes y funcionales.
+<br>Esta familia de bicis viene en varias formas y estilos; las hay con manubrios rectos, de doble altura, drop bars, bullhorns, etc.
+<br>Están equipadas con una sola velocidad por lo que requieren mucho menos mantenimiento que otras bicicletas. La diferencia entre las single-speed y las fixies es que en las single-speed utilizan una rueda libre, mientras que las fixies utilizan un piñón fijo.
+<p><h2>Cruisers</h2></p>
+<img src="imagenes/bicitipo6.jpg" width="60%" height="36%">
+<br>Este tipo de bicicletas están diseñadas para trayectos cortos y sobre pavimento preferencialmente. Su geometría y manubrio característico permiten una postura sumamente relajada. Estas bicicletas suelen ser pesadas y usan llantas anchas lo que las hace poco eficientes en trayectos de más de 10km. Normalmente tienen una sola velocidad aunque algunos fabricantes tienen modelos con tres velocidades. Otra característica común en las cruiser son los frenos de contrapedal.
+<p><h2>BMX</h2></p>
+<img src="imagenes/bicitipo7.jpg" width="60%" height="36%">
+<br>Las BMX utilizan cuadros pequeños y resistentes, ideales para saltos y acrobacias. Existen diferentes variables de estas bicicletas, algunas con llantas anchas para usarse en terrenos sueltos y otras con llantas un poco más delgadas y lisas para usarse en rampas o en la calle. Estas bicicletas no son eficientes como medio de transporte.
+<p><h2>Touring</h2></p>
+<img src="imagenes/bicitipo8.jpg" width="60%" height="36%">
+<br>Estas bicicletas se usan para recorrer largas distancias y cargar peso. Sus cuadros son muy robustos e incluyen monturas para instalar rack trasero y delantero además de varias caramañolas. Aunque la gran mayoría de estas bicicletas utilizan drop-bars también son comunes los manubrios de trekking, rectos y de doble altura, dependiendo del tipo de viaje que se vaya a realizar.
+<br>Tienen un gran rango de velocidades: suficientemente bajas que facilitan subir pendientes bastante pronunciadas al estar completamente cargadas y velocidades altas para mantener la velocidad aun en las bajadas. Están equipadas con frenos potentes, generalmente frenos de disco o cantilever (los tradicionales).Los rodados comunes son de 26
+<p><h2>Fat Bikes</h2></p>
+<img src="imagenes/bicitipo9.jpg" width="60%" height="36%">
+<br>Son de reciente aparición y su uso principal es sobre terrenos con nieve o arena, grandes piedras, raíces, et. La principal característica de estas bicicletas son sus llantas rodado 26″ sumamente anchas (normalmente de entre 3 y 3.6 pulgadas). La geometría de su cuadro es muy similar a una bicicleta de montaña con la diferencia de que usa tijera/horquilla y vainas con holgura adecuada para las ruedas gordas. Estas bicis están equipadas con velocidades múltiples y frenos de disco.
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicación TRES,CCD</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> 5 Marcas importantes de bicicletas</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <p><img src="imagenes/marca1.png" width="90%" height="25%"></p>
+  <br>Giant Manufacturing Co. Ltd. es una compañía dedicada a la elaboración de bicicletas. Establecida en 1972 en Taiwán, Giant comenzó como productora OEM, construyendo bicicletas para ser vendidas con otros nombres. Al poco tiempo estableció su propia marca.<hr>
+  <p><img src="imagenes/marca2.png" width="90%" height="25%"></p>
+  <br>Trek Bicycle Corporation es un fabricante de bicicletas y de accesorios y componentes de ciclismo estadounidense, que distribuye bajo las marcas Trek, Gary Fisher, Bontrager, Klein y, anteriormente, también Lemond Racing Cycles. Con sede principal en Waterloo (Wisconsin), las bicicletas Trek son comercializadas a través de 1.700 comerciales en Norteamérica, subsidiarias en Europa y Asia y distribuidores en 90 países del mundo.<hr>
+  <p><img src="imagenes/marca3.png" width="90%" height="25%"></p>
+  <br>Specialized Bicycle Components es un fabricante de bicicletas y componentes de ciclismo estadounidense, situado en la ciudad de Morgan Hill, California. Hoy en día mantiene talla Internacional, con distribuidoras en casi todo el mundo.<hr>
+  <p><img src="imagenes/marca4.png" width="90%" height="25%"></p>
+  <br>La Cannondale Bicycle Corporation es una empresa fabricante de bicicletas de los Estados Unidos, con sede en Bethel, Connecticut, y fábrica en Bedford, Pennsylvania. La compañía fue creada en el año 1971 por Joe Montgomery para la fabricación de artículos para la acampada y más tarde artículos para el cicloturismo.<hr>
+  <p><img src="imagenes/marca5.png" width="90%" height="25%"></p>
+  <br>Santa Cruz Bicycles fue fundada por Rob Roskopp, Mike Márquez y Rich Novak en 1993.Roskopp había pasado muchos años como skater profesional, y la compañía Novak Santa Cruz Skateboards había presentado un modelo especial de "Roskopp" antes de que los dos se conocieran. Roskopp y Novak se asoció con el ingeniero de bicicletas Mike Marquez, que tenía experiencia particular en la suspensión de bicicletas, y Tom Morris, un diseñador, para construir algunos prototipos.<hr>
+  
+<p><h2>Si quieres saber más sobre estas marcas consulta las páginas:</h2></p>
+<br><a href="https://www.giant-bicycles.com/mx" target="_self">Giant</a>
+<br><a href="https://www.trekbikes.com/mx/es_MX/" target="_self">Trek</a>
+<br><a href="https://www.specialized.com/mx/es" target="_self">Specialized</a>
+<br><a href="https://www.cannondale.com/es-ES/Latin%20America" target="_self">Cannondale</a>
+<br><a href="https://www.santacruzbicycles.com/es-MX" target="_self">Santa Cruz</a>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicación TRES,CCD</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>¿Por que se celebra el dia mundial de la bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+El 19 de abril se celebra el Día Mundial de la Bicicleta, con el objetivo de promover el uso de este medio de transporte sostenible, sano y divertido, y concienciar sobre los derechos de los ciclistas.
+Y como muchos Días Mundiales e Internacionales, este día tiene una curiosa historia detrás, que te sorprenderá seguro. 
+La fecha hace referencia al 19 de abril de 1943 cuando Albert Hofmann, conocido como el padre del LSD, realizara en su laboratorio un experimento en el que ingirió 0,25 miligramos de ácido lisérgico (LSD) para ver sus efectos y tuvo que volver a casa en bicicleta porque a consecuencia de la guerra no estaba permitido el desplazamiento en vehículos a motor. 
+En ese viaje tuvo algunos problemas y acabó en el médico porque pensaba que la sustancia lo había envenenado. Después de algunos efectos de terror, empezó a sentir disfrute y buenas sensaciones. Y finalmente acabó bien. Hofmann había descubierto una sustancia que pensó que podría tener aplicación en el mundo de la psiquiatría, por sus efectos introspectivos, aunque nunca pensó que nadie lo usaría de modo recreativo.
+Pero realmente la primera vez que se celebró el Día Mundial de la Bicicleta fue en DeKalb, una ciudad estadounidense del estado de Illinois, en 1985. El profesor de Universidad Thomas B. Roberts quiso conmemorar la primera experiencia de Hofmann con el LSD.</div>
+<br>
+<img src="imagenes/profesor.jpg" width="90%" height="50%">
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicación TRES,CCD</h4>
+</div>
+</div>
+</body>
+</html>
